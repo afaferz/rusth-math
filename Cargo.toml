@@ -1,0 +1,16 @@
+[package]
+name = "math_rs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "math_rs"
+src = "src/main.rs"
+
+[lib]
+name = "math_rs"
+path = "src/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
